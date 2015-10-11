@@ -20,23 +20,23 @@ The binary will then be located at:
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
-vendor/bin/wkhtmltopdf-i386
+`vendor/bin/dsf_pack`
 
 
 ## Usage:
 
-### Decode DSF
+#### Decode DSF
 
 ```
 $ bin/amd64/dsf_pack -d dune_service_test.dsf -o output_file.gz
 ```
-### Encode DSF
+#### Encode DSF
 
 ```
 $ bin/amd64/dsf_pack -e your_packed_script.gz -o dune_service_test.dsf
 ```
 
-### Options
+#### Options
 ```
 
   -h          : display usage help (this output)
