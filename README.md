@@ -11,7 +11,7 @@ This package can be found on Packagist and installed with Composer.
 Require the package with:
 
 ```
-    php composer.phar require fluxuator/dsf-pack "0.1.0"
+composer.phar require fluxuator/dsf-pack
 ```
 
 The binary will then be located at:
@@ -38,16 +38,10 @@ $ bin/amd64/dsf_pack -e your_packed_script.gz -o dune_service_test.dsf
 
 #### Options
 ```
-
   -h          : display usage help (this output)
-  
   -d filename : decode .dsf to outfile.gz
-  
   -e filename : encode infile.gz to .dsf
-  
   -o filename : specify different output filename
-  
   -c filename : compare encode with file
-  
   -v          : verbose it up!
 ```
