@@ -10,6 +10,7 @@
         }
     ],
     "bin": [
-        "bin/dsf_pack"
+        "bin/i386/dsf_pack",
+        "bin/amd64/dsf_pack"
     ]
 }

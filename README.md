@@ -11,7 +11,7 @@ This package can be found on Packagist and installed with Composer.
 Require the package with:
 
 ```
-composer.phar require fluxuator/dsf-pack-binaries
+composer.phar require fluxuator/dsf-pack-binaries dev-master
 ```
 
 The binary will then be located at:
