@@ -2,7 +2,7 @@
     "name": "fluxuator/dsf-pack-binaries",
     "description": "Dune HD System File packer/unpacker binary files",
     "keywords": ["dsf", "dune-hd"],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,6 @@
         }
     ],
     "bin": [
-        "bin/i386/dsf_pack",
         "bin/amd64/dsf_pack"
     ]
 }
