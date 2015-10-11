@@ -1,4 +1,4 @@
-#Dune HD System File packer/unpacker
+#Dune HD System File packer/unpacker binary files
 
 ## Installation
 
@@ -11,12 +11,12 @@ This package can be found on Packagist and installed with Composer.
 Require the package with:
 
 ```
-composer.phar require fluxuator/dsf-pack
+composer.phar require fluxuator/dsf-pack-binaries
 ```
 
 The binary will then be located at:
 
-`vendor/fluxuator/dsf_pack/bin/amd64/dsf_pack`
+`vendor/fluxuator/dsf-pack-binaries/bin/amd64/dsf_pack`
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
