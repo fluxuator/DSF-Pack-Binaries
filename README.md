@@ -20,7 +20,7 @@ The binary will then be located at:
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
-`vendor/bin/dsf_pack`
+`bin/dsf_pack`
 
 
 ## Usage:
